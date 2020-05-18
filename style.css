@@ -1,0 +1,74 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.hex {
+  display: flex;
+  padding: 0px 80px 80px 80px;
+  margin: 30px auto;
+}
+
+h1 {
+  margin: 50px 0px 0px 50px;
+}
+
+.wrapper {
+ display: flex;
+  flex-direction: column;
+  padding: 0px 50px ;
+  margin: 30px auto;
+}
+
+.flex-item-1 {
+  justify-content: space-around;
+  margin: 20px auto;
+  padding: 0px;
+  
+}
+
+#red, #green, #blue  {
+  margin: 5px auto;
+  padding: 10px;
+}
+
+.redpart, .greenpart, .bluepart {
+  margin: -20px 10px ;
+  height: 50px; 
+  width: 50px
+}
+
+span {
+  font-size: 30px;
+  font-family:monospace;
+}
+
+input {
+  font-size: 25px;
+  font-family:monospace;
+}
+
+#addBtn {
+  background-color: #00BBFF;
+  color: white;
+  height: 50px; 
+  width: 150px;
+  font-size: 25px;
+}
+
+.finalnumbertext {
+  font-size: 25px;
+  font-family:monospace;
+  border-color:gray;
+  border-width:1px;
+  border-style:solid;
+  margin:10px 20px 20px -80px;
+  padding: 10px
+}
+
+.finalpart {
+  height: 200px; 
+  width: 200px;
+  margin:-10px 20px 20px -80px;
+}

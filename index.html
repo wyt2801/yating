@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="m-5">
+    <div class="flex-container">
+      <div class="flex-item">
+        <h1>RGB</h1>
+        <div class="rgbselector">
+          <div class="wrapper">
+            <div class="flex-item-1">
+              <div class="redtitle">
+                <span>R: </span>
+                <input type="text" placeholder="enter number" id="red" class="form-control mr-2">
+                <img class="redpart" style="background-color: gray;">
+              </div>
+            </div>
+            <div class="flex-item-1">
+              <div class="greentitle">
+                <span>G: </span>
+                <input type="text" placeholder="enter number" id="green" class="form-control mr-2">
+                <img class="greenpart" style="background-color: gray">
+              </div>
+            </div>
+            <div class="flex-item-1">
+
+              <div class="bluetitle">
+                <span>B: </span>
+                <input type="text" placeholder="enter number" id="blue" class="form-control mr-2">
+                <img class="bluepart" style="background-color: gray">
+              </div>
+            </div>
+            <div class="flex-item-1">
+              <button id="addBtn" class="btn btn-info ">Convert</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-item">
+        <h1>HEX</h1>
+        <div class="hex">
+          <ul id="finalnumber" class="list-unstyled">
+            <p class="finalnumbertext"> HEX Result </p>
+            <img class="finalpart" style="background-color: gray">
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
